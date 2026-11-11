@@ -1,0 +1,45 @@
+.card-eco p {
+    color: #60756a
+}
+
+.nav-links a {
+    text-decoration: none
+}
+
+.site-footer a {
+    text-decoration: none
+}
+
+.btn-eco {
+    text-decoration: none
+}
+
+.card {
+    border-color: #dce7dd;
+    border-radius: 15px
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #168253;
+    box-shadow: 0 0 0 3px #39aa7030
+}
+
+.btn-success {
+    background-color: #176b4c;
+    border-color: #176b4c
+}
+
+.btn-success:hover {
+    background-color: #0f4a37
+}
+
+.alert-success {
+    background: #e4f3dd;
+    color: #185237;
+    border-color: #bcdcbc
+}
+
+.badge.bg-success {
+    background-color: #176b4c !important
+}
+

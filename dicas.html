@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#176b4c">
+    <meta name="description" content="EcoConecta: portal educativo sobre hábitos sustentáveis.">
+    <title>Dicas | EcoConecta</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/dicas.css">
+</head>
+
+<body>
+    <header id="site-header" class="site-header"></header>
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="container"><span class="eyebrow">EXPLORE O ECOCONECTA</span>
+                <h1 id="titulo-dicas">Dicas para o dia a dia</h1>
+                <p>Filtre as sugestões por categoria e salve suas favoritas.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="filters" aria-label="Filtrar dicas"><button type="button"
+                        class="filter-btn tip-filter selected" data-filter="Todos"
+                        aria-pressed="true">Todas</button><button type="button" class="filter-btn tip-filter"
+                        data-filter="Casa">Casa</button><button type="button" class="filter-btn tip-filter"
+                        data-filter="Cidade">Cidade</button><button type="button" class="filter-btn tip-filter"
+                        data-filter="Consumo">Consumo</button></div>
+                <div id="tips-list" class="cards" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script type="module" src="js/app.js" defer></script>
+</body>
+
+</html>

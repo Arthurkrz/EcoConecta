@@ -1,0 +1,26 @@
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+}
+
+.panel {
+    padding: 23px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 17px
+}
+
+.panel ul {
+    padding-left: 19px
+}
+
+.panel li {
+    padding: 7px 0
+}
+
+@media(max-width: 700px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}

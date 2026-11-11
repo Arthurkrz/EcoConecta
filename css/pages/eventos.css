@@ -1,0 +1,49 @@
+.event-list {
+    display: grid;
+    gap: 16px
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 23px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 16px
+}
+
+.event-date {
+    flex: 0 0 72px;
+    background: #e4f1dd;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    color: var(--deep)
+}
+
+.event-date strong {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1
+}
+
+.event-content {
+    flex: 1
+}
+
+.event-content p {
+    margin: 0
+}
+
+@media(max-width: 700px) {
+    .event-item {
+        align-items: flex-start;
+        flex-wrap: wrap
+    }
+    
+    .event-item .btn-eco {
+        width: 100%
+    }
+}

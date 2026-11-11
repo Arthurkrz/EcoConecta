@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#176b4c">
+    <meta name="description" content="EcoConecta: portal educativo sobre hábitos sustentáveis.">
+    <title>Galeria | EcoConecta</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/galeria.css">
+</head>
+
+<body>
+    <header id="site-header" class="site-header"></header>
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="container"><span class="eyebrow">EXPLORE O ECOCONECTA</span>
+                <h1>Galeria de ideias</h1>
+                <p>Uma coleção visual de temas e hábitos para transformar inspiração em prática.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="filters" aria-label="Filtrar galeria"><button class="filter-btn gallery-filter selected"
+                        data-filter="Todos" type="button">Todas</button><button class="filter-btn gallery-filter"
+                        data-filter="Casa" type="button">Casa</button><button class="filter-btn gallery-filter"
+                        data-filter="Cidade" type="button">Cidade</button><button class="filter-btn gallery-filter"
+                        data-filter="Consumo" type="button">Consumo</button><button class="filter-btn gallery-filter"
+                        data-filter="Educação" type="button">Educação</button><button class="filter-btn gallery-filter"
+                        data-filter="Comunidade" type="button">Comunidade</button></div>
+                <div id="gallery" class="gallery-grid" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script type="module" src="js/app.js" defer></script>
+</body>
+
+</html>

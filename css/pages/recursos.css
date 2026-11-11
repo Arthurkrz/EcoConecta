@@ -1,0 +1,29 @@
+.resource-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px
+}
+
+.resource {
+    background: white;
+    padding: 23px;
+    border: 1px solid var(--line);
+    border-radius: 15px
+}
+
+.data-table caption {
+    caption-side: bottom;
+    text-align: left;
+    padding: 12px;
+}
+
+@media(max-width: 700px) {
+    .resource-list {
+        grid-template-columns: 1fr;
+    }
+
+    .data-table th, .data-table td {
+        padding: 11px;
+        font-size: .85rem
+    }
+}
